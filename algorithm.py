@@ -326,25 +326,6 @@ def get_data(data, key):
     
     return value
 
-def get_Procedure_id(fc, eb, ghp, ht):
-    """
-    arguments:
-        fc (list): 燃料电池状态，如 [1, 1, 0]
-        eb (list): 电锅炉状态，如 [1, 1, 0, 2] 或 [1,1,1,0]
-        ghp (list): 地源热泵状态，如 [1, 0, 1]
-        ht (list): 储热罐状态，如 [1,1]
-    return:
-        str or None: 匹配的流程 ID，未匹配返回 None
-    """
-    # 将每个设备的状态列表转换为字符串
-    to_str = lambda x: ''.join(str(int(round(i, 0))) for i in x)
-
-    key = f"{to_str(fc)}-{to_str(eb)}-{to_str(ghp)}-{to_str(ht)}"
-    if Operation_mapping.get(key, "None") == "None":
-        _logging.info("未匹配到流程,流程码为:{}".format(key))
-
-    return Operation_mapping.get(key, "None")  # 匹配则返回流程id，不匹配则返回none
-
 def handlingEquipmentErrorFunc(equipmentErrorList:list):
     '''
         设备故障处理函数
