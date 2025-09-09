@@ -1,0 +1,37 @@
+
+[2025-09-09 19:56:16] [info] [D:\code_py\Optimization\MPC-fc\contral-opt\heatOpIntraday\algorithm.py - 738 - Optimization] 求解完成,求解器状态为: optimal,resCode: 200
+[2025-09-09 19:56:16] [info] [D:\code_py\Optimization\MPC-fc\contral-opt\heatOpIntraday\algorithm.py - 213 - get_Procedure_ID] 未匹配到流程,流程码为:110-0000-000-00
+[2025-09-09 19:56:16] [info] [D:\code_py\Optimization\MPC-fc\contral-opt\heatOpIntraday\algorithm.py - 801 - Optimization] 负荷2000.0下存在None流程
+[2025-09-09 19:56:16] [info] [D:\code_py\Optimization\MPC-fc\contral-opt\heatOpIntraday\algorithm.py - 804 - Optimization] 负荷2000.0下gap值为: 0.0
+[2025-09-09 19:56:29] [info] [D:\code_py\Optimization\MPC-fc\contral-opt\heatOpIntraday\algorithm.py - 738 - Optimization] 求解完成,求解器状态为: optimal,resCode: 200
+[2025-09-09 19:56:29] [info] [D:\code_py\Optimization\MPC-fc\contral-opt\heatOpIntraday\algorithm.py - 804 - Optimization] 负荷2100.0下gap值为: 0.0
+[2025-09-09 19:58:09] [info] [D:\code_py\Optimization\MPC-fc\contral-opt\heatOpIntraday\algorithm.py - 738 - Optimization] 求解完成,求解器状态为: timelimit,resCode: 201
+[2025-09-09 19:58:09] [info] [D:\code_py\Optimization\MPC-fc\contral-opt\heatOpIntraday\algorithm.py - 804 - Optimization] 负荷2200.0下gap值为: 0.012101447707673687
+[2025-09-09 19:58:11] [info] [D:\code_py\Optimization\MPC-fc\contral-opt\heatOpIntraday\algorithm.py - 738 - Optimization] 求解完成,求解器状态为: optimal,resCode: 200
+[2025-09-09 19:58:11] [info] [D:\code_py\Optimization\MPC-fc\contral-opt\heatOpIntraday\algorithm.py - 804 - Optimization] 负荷2300.0下gap值为: 0.0
+[2025-09-09 19:59:51] [info] [D:\code_py\Optimization\MPC-fc\contral-opt\heatOpIntraday\algorithm.py - 738 - Optimization] 求解完成,求解器状态为: timelimit,resCode: 201
+[2025-09-09 19:59:51] [info] [D:\code_py\Optimization\MPC-fc\contral-opt\heatOpIntraday\algorithm.py - 804 - Optimization] 负荷2400.0下gap值为: 0.012591278597158771
+[2025-09-09 20:01:31] [info] [D:\code_py\Optimization\MPC-fc\contral-opt\heatOpIntraday\algorithm.py - 738 - Optimization] 求解完成,求解器状态为: timelimit,resCode: 201
+[2025-09-09 20:01:31] [info] [D:\code_py\Optimization\MPC-fc\contral-opt\heatOpIntraday\algorithm.py - 804 - Optimization] 负荷2500.0下gap值为: 0.0805157538291782
+[2025-09-09 20:01:45] [info] [D:\code_py\Optimization\MPC-fc\contral-opt\heatOpIntraday\algorithm.py - 738 - Optimization] 求解完成,求解器状态为: optimal,resCode: 200
+[2025-09-09 20:01:45] [info] [D:\code_py\Optimization\MPC-fc\contral-opt\heatOpIntraday\algorithm.py - 804 - Optimization] 负荷2600.0下gap值为: 0.0
+[2025-09-09 20:03:25] [info] [D:\code_py\Optimization\MPC-fc\contral-opt\heatOpIntraday\algorithm.py - 738 - Optimization] 求解完成,求解器状态为: timelimit,resCode: 201
+[2025-09-09 20:03:25] [info] [D:\code_py\Optimization\MPC-fc\contral-opt\heatOpIntraday\algorithm.py - 804 - Optimization] 负荷2700.0下gap值为: 0.015060075303601842
+[2025-09-09 20:03:47] [info] [D:\code_py\Optimization\MPC-fc\contral-opt\heatOpIntraday\algorithm.py - 738 - Optimization] 求解完成,求解器状态为: optimal,resCode: 200
+[2025-09-09 20:03:47] [info] [D:\code_py\Optimization\MPC-fc\contral-opt\heatOpIntraday\algorithm.py - 804 - Optimization] 负荷2800.0下gap值为: 0.0
+[2025-09-09 20:04:12] [info] [D:\code_py\Optimization\MPC-fc\contral-opt\heatOpIntraday\algorithm.py - 738 - Optimization] 求解完成,求解器状态为: optimal,resCode: 200
+[2025-09-09 20:04:12] [info] [D:\code_py\Optimization\MPC-fc\contral-opt\heatOpIntraday\algorithm.py - 804 - Optimization] 负荷2900.0下gap值为: 0.0
+[2025-09-09 20:05:14] [info] [D:\code_py\Optimization\MPC-fc\contral-opt\heatOpIntraday\algorithm.py - 738 - Optimization] 求解完成,求解器状态为: optimal,resCode: 200
+[2025-09-09 20:05:14] [info] [D:\code_py\Optimization\MPC-fc\contral-opt\heatOpIntraday\algorithm.py - 804 - Optimization] 负荷3000.0下gap值为: 0.0
+[2025-09-09 20:06:54] [info] [D:\code_py\Optimization\MPC-fc\contral-opt\heatOpIntraday\algorithm.py - 738 - Optimization] 求解完成,求解器状态为: timelimit,resCode: 201
+[2025-09-09 20:06:54] [info] [D:\code_py\Optimization\MPC-fc\contral-opt\heatOpIntraday\algorithm.py - 804 - Optimization] 负荷3100.0下gap值为: 0.019036557271866542
+[2025-09-09 20:07:03] [info] [D:\code_py\Optimization\MPC-fc\contral-opt\heatOpIntraday\algorithm.py - 738 - Optimization] 求解完成,求解器状态为: optimal,resCode: 200
+[2025-09-09 20:07:03] [info] [D:\code_py\Optimization\MPC-fc\contral-opt\heatOpIntraday\algorithm.py - 213 - get_Procedure_ID] 未匹配到流程,流程码为:000-1102-110-11
+[2025-09-09 20:07:03] [info] [D:\code_py\Optimization\MPC-fc\contral-opt\heatOpIntraday\algorithm.py - 801 - Optimization] 负荷3200.0下存在None流程
+[2025-09-09 20:07:03] [info] [D:\code_py\Optimization\MPC-fc\contral-opt\heatOpIntraday\algorithm.py - 804 - Optimization] 负荷3200.0下gap值为: 0.0
+[2025-09-09 20:07:15] [info] [D:\code_py\Optimization\MPC-fc\contral-opt\heatOpIntraday\algorithm.py - 738 - Optimization] 求解完成,求解器状态为: optimal,resCode: 200
+[2025-09-09 20:07:15] [info] [D:\code_py\Optimization\MPC-fc\contral-opt\heatOpIntraday\algorithm.py - 804 - Optimization] 负荷3300.0下gap值为: 0.0
+[2025-09-09 20:07:29] [info] [D:\code_py\Optimization\MPC-fc\contral-opt\heatOpIntraday\algorithm.py - 738 - Optimization] 求解完成,求解器状态为: optimal,resCode: 200
+[2025-09-09 20:07:29] [info] [D:\code_py\Optimization\MPC-fc\contral-opt\heatOpIntraday\algorithm.py - 804 - Optimization] 负荷3400.0下gap值为: 0.0
+[2025-09-09 20:07:45] [info] [D:\code_py\Optimization\MPC-fc\contral-opt\heatOpIntraday\algorithm.py - 738 - Optimization] 求解完成,求解器状态为: optimal,resCode: 200
+[2025-09-09 20:07:45] [info] [D:\code_py\Optimization\MPC-fc\contral-opt\heatOpIntraday\algorithm.py - 804 - Optimization] 负荷3500.0下gap值为: 0.0

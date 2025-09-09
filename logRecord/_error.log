@@ -1,0 +1,10 @@
+[2025-08-27 19:26:11] [error] [d:\code_py\Optimization\MPC-fc\contral-opt\heatOpIntraday\test.py - 6 - <module>] 测试错误日志
+[2025-08-27 19:26:51] [error] [d:\code_py\Optimization\MPC-fc\contral-opt\heatOpIntraday\test.py - 6 - <module>] 测试错误日志
+[2025-08-27 19:58:53] [error] [d:\code_py\Optimization\MPC-fc\contral-opt\heatOpIntraday\test.py - 6 - <module>] 测试错误日志
+[2025-08-28 23:06:34] [error] [d:\code_py\Optimization\MPC-fc\contral-opt\heatOpIntraday\algorithm.py - 284 - Optimization] 设备ht发生故障
+[2025-08-28 23:07:25] [error] [d:\code_py\Optimization\MPC-fc\contral-opt\heatOpIntraday\algorithm.py - 284 - Optimization] 设备ht发生故障
+[2025-08-28 23:07:25] [error] [d:\code_py\Optimization\MPC-fc\contral-opt\heatOpIntraday\algorithm.py - 284 - Optimization] 设备fc发生故障
+[2025-08-28 23:27:04] [error] [d:\code_py\Optimization\MPC-fc\contral-opt\heatOpIntraday\algorithm.py - 284 - Optimization] 设备ht发生故障
+[2025-08-28 23:27:04] [error] [d:\code_py\Optimization\MPC-fc\contral-opt\heatOpIntraday\algorithm.py - 284 - Optimization] 设备fc发生故障
+[2025-09-06 16:35:55] [error] [d:\code_py\Optimization\MPC-fc\contral-opt\heatOpIntraday\algorithm.py - 41 - handle_error] error_msg_prefix: can't multiply sequence by non-int of type 'float'
+[2025-09-07 15:32:25] [error] [d:\code_py\Optimization\MPC-fc\contral-opt\heatOpIntraday\algorithm.py - 122 - handle_error] error_msg_prefix: [Errno 2] No such file or directory: '../device_setting.json'

@@ -1,0 +1,178 @@
+{
+    "device":{
+
+        "mp":
+            {
+                "flow_max":100,
+                "beta_co":1.399,
+                "comment":"main pipe"
+            },
+        "fc":
+            {
+                "power_max":800,
+                "water_max":100,
+                "water_min":50,
+                "t_max":65,
+                "t_min":35,
+                "eta_p":14.15,
+                "eta_g":18.85,
+                "eta_pump":0.2,
+                "theta_ex":0.85,
+                "power_200":
+                {
+                    "g_p_ratio":1.1583,
+                    "theta_ex":0.85,
+                    "k_g_p":1.0867,
+                    "b_g_p":-13.0038
+                },
+                "power_400":
+                {
+                    "g_p_ratio":1.1911,
+                    "theta_ex":0.85,
+                    "k_g_p":1.4277,
+                    "b_g_p":-81.0894
+                },
+                "power_600":
+                {
+                    "g_p_ratio":1.1279,
+                    "theta_ex":0.85,
+                    "k_g_p":1.8180,
+                    "b_g_p":-237.4295
+                },
+                "comment":"fuel cell"
+            },
+        "el":
+            {
+                "power_max":500,
+                "beta_el":0.0182
+            },
+        "hst":
+            {
+                "sto_max":121.8,
+                "sto_min":0,
+                "cost":3000,
+                "crf":15,
+
+                "inout_max":5000,
+                "U_max":350,
+                "U_min":5,
+                "end_slack":0.2,
+                "comment":"hydrogen buffer storage tank"
+            },
+        "sc":
+            {
+                "heat_max":100000,
+                "comment":"solar collector"
+            },   
+        "eb":
+            {
+                "power_max":3000,
+                "water_max":100,
+                "water_min":50,
+                "t_max":85,
+                "t_min":35,
+                "eta_eb":0.82,
+                "eta_pump":0.2,
+                "comment":"electric boiler"
+            },  
+        "ec":
+            {
+                "power_max":1200,
+                "beta_ec":0.9,
+                "comment":"electric chiller"
+            },
+        "ht":
+            {
+                "water_max":100,
+                "water_min":50,
+                "energy":5000,
+                "t_max":80,
+                "t_min":45,
+                "t_wetbulb":20,
+                "t_supply":55,
+                "eta_loss":0.001,
+                "end_slack":0.2,
+                "comment":"water tank"
+            },
+
+
+
+        "ghp":
+            {
+                "power_max":300,
+                "water_max":100,
+                "water_min":50,
+                "t_max":65,
+                "t_min":35,
+                "eta_ghp":3.54,
+                "eta_pump":0.2,
+                "beta_ghpg":3.54,
+                "beta_ghpq":4,
+                "max_time":8,
+                "comment":"ground source heat pump"
+            },
+        "ahp":
+            {
+                "power_max":300,
+                "water_max":100,
+                "water_min":50,
+                "t_max":65,
+                "t_min":35,
+                "k_t_env":[0.0557,0.0466,0.0615,0.0396,0.0461],
+                "k_t_ahp":[-0.0295,-0.0386,-0.0435,-0.0719,-0.0665],
+                "eta_ahp_base":[4.4103,4.6523,4.9161,6.3125,5.9036],
+                "eta_ahp":2.05,
+                "eta_pump":0.2,
+                "beta_hpq":6,
+                "comment":"ground source heat pump,季节储热只能用cop了"
+            },
+
+        "gtw":
+            {
+                "number_max":42,
+                "cost":30000,
+                "crf":30,
+                "water_max":80,
+                "t_in_min":4,
+                "beta_gtw":7,
+                "comment":"ground thermal well"
+            },
+        "ct":
+            {
+                "water_max":100000,
+
+                "t_max":15,
+                "t_min":4,
+                "t_wetbulb":10,
+                "miu_loss":0.05,
+                "end_slack":0.2,
+                "comment":"cooling water tank"
+            },
+        "pipe":
+            {
+                "water_max":500,
+                "water_min":250,
+                "t_max":65,
+                "t_min":0,
+                "eta_loss":0.05,
+                "eta_pump":0.2,
+                "temperature_difference":5,
+                "comment":"供暖管道"
+            },
+
+        "pv":
+            {
+                "power_max":1100,
+
+                "eta_pv":0.9
+            },
+        "bs":
+            {
+                "power_max":50,
+                "power_min":10,
+                "miu_loss":0.15
+            }
+
+
+    }
+}

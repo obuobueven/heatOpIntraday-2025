@@ -1,0 +1,134 @@
+{
+    "name": "供暖季实时优化调度算法",
+    "moduleId": "HeatingOpIntraday",
+    "version": "1.0.0",
+    "description": "根据日前预测的多能源负荷和可再生能源预测数据，以及系统储能状态与设备COP参数和最新的边界，构建并求解日前MIP问题，输出基策略。",
+    "period": "24h",
+    "setting": {
+        "ele_TOU_price":[
+            0.2003,
+            0.2003,
+            0.2003,
+            0.2003,
+            0.2003,
+            0.2003,
+            0.2003,
+            0.5221,
+            0.8439,
+            0.8439,
+            0.8439,
+            0.8439,
+            0.5221,
+            0.5221,
+            0.5221,
+            0.5221,
+            0.5221,
+            0.5221,
+            0.8439,
+            0.8439,
+            0.8439, 
+            0.8439,
+            0.8439,
+            0.2003],
+        "hydrogen_price": 17.92,
+        "demand_electricity_price":35.2 
+
+    },
+    "input": [
+        {
+            "key": "powerLoadPrediction24h",
+            "name": "24h电负荷预测数据",
+            "type": "timeseries",
+            "unit": "kWh",
+            "description": "当前时刻开始的未来24小时电气系统的电负荷预测数据"
+        },
+        {
+            "key": "heatingLoadPrediction24h",
+            "name": "24h热负荷预测数据",
+            "type": "timeseries",
+            "unit": "kW",
+            "description": "当前时刻开始的未来24小时热负荷预测数据"
+        },
+        {
+            "key": "pvPrediction24h",
+            "name": "24h光伏发电功率预测数据",
+            "type": "timeseries",
+            "unit": "kW",
+            "description": "当前时刻开始的未来24小时电气系统的光伏发电功率数据"
+        },
+        {
+            "key": "envTemperaturePrediction24h",
+            "name": "24h环境温度预测数据",
+            "type": "timeseries",
+            "unit": "℃",
+            "description": "当前时刻开始的未来24小时环境温度的预测数据"
+        },
+        {
+            "key": "htTemperatureRT",
+            "name": "当前热水罐温度数据",
+            "type": "timeseries",
+            "unit": "℃",
+            "description": "当前热水罐温度数据"
+        },      
+        {
+            "key": "htStateRT",
+            "name": "当前热水罐状态数据",
+            "type": "timeseries",
+            "unit": "℃",
+            "description": "当前热水罐状态数据"
+        },
+        {
+            "key": "fcStateRT",
+            "name": "当前燃料电池故障状态数据",
+            "type": "timeseries",
+            "unit": "",
+            "description": "系统的当前燃料电池故障状态"
+        },
+        {
+            "key": "ebStateRT",
+            "name": "当前电锅炉故障状态数据",
+            "type": "timeseries",
+            "unit": "",
+            "description": "系统的当前电锅炉故障状态"
+        },
+        {
+            "key": "ghpStateRT",
+            "name": "当前地源热泵故障状态数据",
+            "type": "timeseries",
+            "unit": "",
+            "description": "系统的当前地源热泵故障状态"
+        },
+        {
+            "key": "bessSocRT",
+            "name": "当前电池储能系统SOC状态数据",
+            "type": "timeseries",
+            "unit": "kW",
+            "description": "系统的当前电池储能系统SOC状态"
+        },
+        {
+            "key": "ahpStateRT",
+            "name": "当前空气源热泵故障状态数据",
+            "type": "timeseries",
+            "unit": "",
+            "description": "暖通系统的当前空气源热泵故障状态"
+        },
+
+
+
+        {
+            "key": "GheTempOutRt",
+            "name": "当前地热井出水温度",
+            "type": "timeseries",
+            "unit": "",
+            "description": "暖通系统的当前地热井出水温度"
+        },
+        {
+            "key": "supplyoutTempRt",
+            "name": "运动员村主管道回水温度数据",
+            "type": "timeseries",
+            "unit": "",
+            "description": "运动员村主管道回水温度"
+        }
+    ]
+
+}
